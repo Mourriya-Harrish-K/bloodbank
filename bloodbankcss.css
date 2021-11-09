@@ -1,0 +1,43 @@
+form{
+  background-color: #ffffff;
+  display: block;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  border: 5px solid #ff7000;
+  padding: 20px;
+}
+input{
+  width: 40%;
+  height: 20px;
+  border: 2px solid #cccccc;
+}
+p{
+  color: #ff0000; 
+}
+body{
+  background-color: #ffffff;
+}
+.mybtn{
+  background-color: #ff4000;
+  height: 30px;
+}
+.btn{
+  height: 30px;
+}
+.topnav{
+overflow: hidden;
+background-color: #ff4444;
+width: 100%;
+margin-top: 40px;
+}
+.topnav a{
+padding: 10px;
+text-decoration: none;
+float: right;
+}
+.topnav a:hover {
+  background-color: #ff5555;
+  color: black;
+}

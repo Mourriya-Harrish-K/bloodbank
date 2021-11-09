@@ -1,0 +1,28 @@
+<!doctype html>				  
+<html lang="en">         
+<head>
+<title>Blood Bank</title>
+<meta charset="utf-8">      
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link href="bloodbankcss.css" rel="stylesheet"> 
+<script src="bloodbankjs.js"></script>    
+</head>
+<body>
+<form align="center" onsubmit="return loggin()">
+<h2>Login</h2>
+<p id="invalid"></p>
+<label for="email"> Enter email id</label></br>
+<input type="text" id="email" autofocus required></br></br>
+<label for="pass">Enter Password</label></br>
+<input type="password" id="pass" autofocus required></br></br>
+<strong><input type="submit" class="mybtn" value="Login"></strong></br></br>
+<a href="">forgot password?</a>
+<p>OR</p>
+<h3>Create new account!</h3>
+<input type="button" class="btn btn-primary" value="Sign up" onclick="return create()">
+</form>
+</body>
+</html>
